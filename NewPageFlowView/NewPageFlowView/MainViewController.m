@@ -26,7 +26,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-
+    // 创建图片数组
     for (int index = 0; index < 5; index++) {
         UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"Yosemite0%d",index]];
         [self.imageArray addObject:image];
@@ -39,10 +39,10 @@
     self.navigationItem.title = @"New PageFlow";
     self.view.backgroundColor = [UIColor whiteColor];
 
-    [self setupUI];
+    [self setupNewPageFlowView];
 }
 
-- (void)setupUI {
+- (void)setupNewPageFlowView {
     NewPageFlowView *pageFlowView = [[NewPageFlowView alloc] initWithFrame:CGRectMake(0, 64, K_Width, (K_Width - 74) * 9 / 16 + 20)];
     pageFlowView.backgroundColor = [UIColor whiteColor];
     pageFlowView.delegate = self;
@@ -50,7 +50,6 @@
     pageFlowView.minimumPageAlpha = 0.4;
     pageFlowView.minimumPageScale = 0.9;
 
-    //初始化pageControl
     UIPageControl *pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, pageFlowView.frame.size.height - 20 - 8, K_Width, 8)];
     pageFlowView.pageControl = pageControl;
     [pageFlowView addSubview:pageControl];
