@@ -43,7 +43,6 @@
 }
 
 - (void)setupUI {
-    // (0, 64, Width, (Width - 84) * 9 / 16 + 24)  &&  (0, 64, K_Width, (K_Width - 64) * 9 / 16 + 10)
     NewPageFlowView *pageFlowView = [[NewPageFlowView alloc] initWithFrame:CGRectMake(0, 64, K_Width, (K_Width - 74) * 9 / 16 + 20)];
     pageFlowView.backgroundColor = [UIColor whiteColor];
     pageFlowView.delegate = self;
