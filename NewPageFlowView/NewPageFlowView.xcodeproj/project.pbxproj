@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86163F0C1D6443E100C9B3A1 /* SimulatorImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 86163F0B1D6443E100C9B3A1 /* SimulatorImage.png */; };
 		86772B0C1D62EF6200D8AA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772B0B1D62EF6200D8AA03 /* main.m */; };
 		86772B0F1D62EF6200D8AA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86772B0E1D62EF6200D8AA03 /* AppDelegate.m */; };
 		86772B171D62EF6200D8AA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86772B161D62EF6200D8AA03 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86163F0B1D6443E100C9B3A1 /* SimulatorImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimulatorImage.png; sourceTree = "<group>"; };
 		86772B071D62EF6200D8AA03 /* NewPageFlowView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPageFlowView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86772B0B1D62EF6200D8AA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86772B0D1D62EF6200D8AA03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86163F0A1D6443E100C9B3A1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				86163F0B1D6443E100C9B3A1 /* SimulatorImage.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		86772AFE1D62EF6200D8AA03 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 				86772B0E1D62EF6200D8AA03 /* AppDelegate.m */,
 				86772B281D62EFF200D8AA03 /* MainViewController.h */,
 				86772B291D62EFF200D8AA03 /* MainViewController.m */,
+				86163F0A1D6443E100C9B3A1 /* Image */,
 				86772B161D62EF6200D8AA03 /* Assets.xcassets */,
 				86772B181D62EF6200D8AA03 /* LaunchScreen.storyboard */,
 				86772B1B1D62EF6200D8AA03 /* Info.plist */,
@@ -152,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86772B1A1D62EF6200D8AA03 /* LaunchScreen.storyboard in Resources */,
+				86163F0C1D6443E100C9B3A1 /* SimulatorImage.png in Resources */,
 				86772B171D62EF6200D8AA03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +322,7 @@
 				86772B201D62EF6200D8AA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
